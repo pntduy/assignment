@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Shop now</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="csss/style.css" rel="stylesheet" type="text/css"/>
+	<script src="js/javascript.js"></script>
+	<link href="css/shoptl.css" rel="stylesheet" media="all"/>
+</head>
+<body >
+	<!-- header -->
+	<div class="container-fluid" id="home">  
+		<nav class="navbar navbar-inverse mainmenu">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button  style="background-color: #000; border: 0.5px solid #fff" type="button"
+					 class="navbar-toggle nutmenu" data-toggle="collapse" data-target="#myNavbar" >
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html" id="logo">
+						<img src="pic/logo1.png" class="logo" />
+					</a>
+				</div>
+				<div class="navbar-collapse navbar-left collapse in" id="myNavbar" >
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">HOME</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#nam">MEN</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#nu">WOMEN</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#khac">OTHER</a>
+						</li>
+						<li>
+							<a class="page-scroll" href="#lhe">CONTACT</a>
+						</li>
+						<li>
+							<a href="signup.html" data-toggle="modal" data-target="#signup">
+								SIGN UP
+								<span class="glyphicon glyphicon-user dky"></span>
+							</a>
+						</li>
+						<li>
+							<a href="login.html" data-toggle="modal" data-target="#login">
+								LOG IN
+								<span class="glyphicon glyphicon-log-in dky" ></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="navbar-right hidden-xs" id="search" >
+					<ul class="nav navbar-nav ">
+						<li>
+					    	<input class="collapse" type="text" id="thanhtimkiem"  placeholder="Tìm kiếm ..." />
+					    </li>
+					    <li>
+							<button type="submit" id="nutsearch" class="btn btn-primary" data-toggle="collapse" 
+							data-target="#thanhtimkiem"><i class="fa fa-search"></i></button>
+						</li>
+					</ul>
+			</div>
+		</nav>        
+	</div>
+	<!-- /header -->
+	
+	<!-- slider -->
+    <div class="container-fluid" id="khac">
+		<div style="margin-top: -15px" id="myCarousel" class="carousel slide " data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>  
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="pic/csoon.jpg" alt="csoon" />
+		      <div class="carousel-caption tde">
+         		 <p>Comming soon...</p>
+       		 </div>
+		    </div>
+		    <div class="item">
+		      <img src="pic/csoon1.jpg" alt="csoon2" />
+		      <div class="carousel-caption tde">
+         		 <p>Comming soon...</p>
+       		 </div>
+		    </div>
+		    <div class="item">
+		      <img src="pic/csoon2.jpg" alt="csoon2">
+		      <div class="carousel-caption tde">
+         		 <p>Comming soon...</p>
+       		 </div>
+		    </div>
+		  </div>
+
+		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+	<!-- /slider -->
+	
+	<!-- body -->
+	<div>
+	<!-- SẢN PHẨM CHO NAM-->
+	<div class="container-fluid" >
+		<h1 class="tieude" id="nam">Men</h1>
+		<div id="loai">
+			<nav>
+				<ul class="nav nav-pills nav-justified">
+					<li><a href="#loai-1" data-toggle="tab"><span>Chuck 70s</span></a></li>
+					<li><a href="#loai-2" data-toggle="tab"><span>One star</span></a></li>
+					<li><a href="#loai-3" data-toggle="tab"><span>New</span></a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="tab-content">
+			
+			<!-- Nam loại 1 -->
+			<section id="loai-1" class="tab-pane fade in active">
+				<div class="gallery-grids">
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam1.1.1.jpg" alt="Nam-1.1.1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor 1970s Hi</h2>
+							<h3>SKU: 162050C </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Men </h3>
+							<h2> VND 1,700,000</h2>
+							<a href="nam1.1.html">
+								<input type="submit" name="chitiet" value="Detail"  />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a>
+							<img src="pic/nam1.2.1.jpg" alt="Nam-1.2.1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor 1970s Hi</h2>
+							<h3>SKU: 162056C </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Men</h3>
+							<h2> VND 1,700,000</h2>
+							<a href="nam1.2.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+								<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a >
+							<img src="pic/nam1.3.1.jpg" alt="Nam-1.3.1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor 1970s Low</h2>
+							<h3>SKU: 162058C </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Men </h3>
+							<h2> VND 1,600,000</h2>
+							<a href="nam1.3.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam1.4.1.jpg" alt="Nam-1.4.1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor 1970s Low</h2>
+							<h3>SKU: 162065C </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Men	</h3>
+							<h2> VND 1,600,000</h2>
+							<a href="nam1.4.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam1.5.1.jpg" alt="Nam-1.5.1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor All Star 70 Vintage Canvas</h2>
+							<h3>SKU: 162051C </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Men</h3>
+							<h2> VND 1,600,000</h2>
+							<a href="nam1.5.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam1.6.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor All Star 70 Vintage Canvas</h2>
+							<h3>SKU: 162059C </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Men	</h3>
+							<h2> VND 1,700,000</h2>
+							<a href="nam1.6.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+			<!-- /Nam loại 1 -->
+			
+			<!-- Nam loại 2 -->
+			<section id="loai-2" class="tab-pane fade in">
+				<div class="gallery-grids">
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam2.1.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Carnival</h2>
+							<h3>SKU: 161617V </h3>
+							<h3> Material: Suede </h3>
+							<h3> Sex: Men	</h3>
+							<h2> VND 1,800,000</h2>
+							<a href="nam2.1.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam2.2.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Converse Pinstripe</h2>
+							<h3>SKU: 159721V </h3>
+							<h3> Material: Leather </h3>
+							<h3> Sex: Men</h3>
+							<h2> VND 1,700,000</h2>
+							<a href="nam2.2.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam2.3.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Pro OG Update</h2>
+							<h3>SKU: 157873C </h3>
+							<h3> Material: Suede </h3>
+							<h3> Sex: Men</h3>
+							<h2> VND 1,500,000</h2>
+							<a href="nam2.3.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam2.4.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Vintage Suede Mid</h2>
+							<h3>SKU: 157701C </h3>
+							<h3> Material: Suede </h3>
+							<h3> Sex: Men</h3>
+							<h2> VND 1,900,000</h2>
+							<a href="nam2.4.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam2.5.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Perf Leather</h2>
+							<h3>SKU: 158464V </h3>
+							<h3> Material: Leather </h3>
+							<h3> Sex: Men</h3>
+							<h2> VND 1,800,000</h2>
+							<a href="nam2.5.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam2.6.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Perf Leather</h2>
+							<h3>SKU: 158465V </h3>
+							<h3> Material: Leather </h3>
+							<h3> Sex: Men	</h3>
+							<h2> VND 1,800,000</h2>
+							<a href="nam2.6.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+			<!-- /Nam loại 2 -->
+			
+			<!-- Nam loại 3 -->
+			<section id="loai-3" class="tab-pane fade in">
+				<div class="gallery-grids">
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam3.1.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck 70 Goretex</h2>
+							<h3>SKU: 162351V </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Men	</h3>
+							<h2> VND ?,???,???</h2>
+							<a href="404.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam3.2.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck 70 Goretex</h2>
+							<h3>SKU: 162349V </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Men</h3>
+							<h2> VND ?,???,???</h2>
+							<a href="404.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam3.3.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Pro OG Update</h2>
+							<h3>SKU: 157873C </h3>
+							<h3> Material: Suede </h3>
+							<h3> Sex: Men</h3>
+							<h2> VND ?,???,???</h2>
+							<a>
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a href="404.html">
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam3.4.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor All Star Cordura</h2>
+							<h3>SKU: 161435C </h3>
+							<h3> Material: Textile </h3>
+							<h3> Sex: Men	</h3>
+							<h2> VND ?,???,???</h2>
+							<a href="404.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam3.5.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>84 Thunderbolt Breathable Mesh</h2>
+							<h3>SKU: 161434C </h3>
+							<h3> Material: Textile </h3>
+							<h3> Sex: Men </h3>
+							<h2> VND ?,???,???</h2>
+							<a href="404.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nam3.6.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Star Player Canvas with Gum</h2>
+							<h3>SKU: 157760C </h3>
+							<h3> Material: Leather </h3>
+							<h3> Sex: Men </h3>
+							<h2> VND ?,???,???</h2>
+							<a href="404.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+			<!-- /Nam loại 3 -->
+		</div>
+	</div>
+	<!-- /SẢN PHẨM CHO NAM-->
+	
+	<!-- SẢN PHẨM CHO NỮ-->
+	<div class="container-fluid">
+		<h1 class="tieude" id="nu">Women</h1>
+		<div id="loai">
+			<nav>
+				<ul class="nav nav-pills nav-justified">
+					<li><a href="#loai-4" data-toggle="tab"><span>Chuck 70s</span></a></li>
+					<li><a href="#loai-5" data-toggle="tab"><span>One star</span></a></li>
+					<li><a href="#loai-6" data-toggle="tab"><span>New</span></a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="tab-content">
+			
+			<!-- Nữ loại 1 -->
+			<section id="loai-4" class="tab-pane fade in active">
+				<div class="gallery-grids">
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu1.1.1.jpg" alt="Nữ-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor 1970s Hi</h2>
+							<h3>SKU: 162050C </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Women </h3>
+							<h2> VND 1,700,000</h2>
+							<a href="nu1.1.html">
+								<input type="submit" name="chitiet" value="Detail"  />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a>
+							<img src="pic/nu1.2.1.jpg" alt="Nữ-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor 1970s Hi</h2>
+							<h3>SKU: 162056C </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Women</h3>
+							<h2> VND 1,700,000</h2>
+							<a href="nu1.2.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+								<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a >
+							<img src="pic/nu1.3.1.jpg" alt="Nữ-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor 1970s Low</h2>
+							<h3>SKU: 162058C </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Women </h3>
+							<h2> VND 1,600,000</h2>
+							<a href="nu1.3.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu1.4.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor 1970s Low</h2>
+							<h3>SKU: 162065C </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Men	</h3>
+							<h2> VND 1,600,000</h2>
+							<a href="nu1.4.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu1.5.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor All Star 70 Vintage Canvas</h2>
+							<h3>SKU: 162051C </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Women</h3>
+							<h2> VND 1,600,000</h2>
+							<a href="nu1.5.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu1.6.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor All Star 70 Vintage Canvas</h2>
+							<h3>SKU: 162059C </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Women	</h3>
+							<h2> VND 1,700,000</h2>
+							<a href="nu1.6.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+			<!-- /Nữ loại 1 -->
+			
+			<!-- Nữ loại 2 -->
+			<section id="loai-5" class="tab-pane fade in">
+				<div class="gallery-grids">
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu2.1.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Carnival</h2>
+							<h3>SKU: 161617V </h3>
+							<h3> Material: Suede </h3>
+							<h3> Sex: Women	</h3>
+							<h2> VND 1,800,000</h2>
+							<a href="nu2.1.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu2.2.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Converse Pinstripe</h2>
+							<h3>SKU: 159721V </h3>
+							<h3> Material: Leather </h3>
+							<h3> Sex: Women</h3>
+							<h2> VND 1,700,000</h2>
+							<a href="nu2.2.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu2.3.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Pro OG Update</h2>
+							<h3>SKU: 157873C </h3>
+							<h3> Material: Suede </h3>
+							<h3> Sex: Women</h3>
+							<h2> VND 1,500,000</h2>
+							<a href="nu2.3.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu2.4.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Vintage Suede Mid</h2>
+							<h3>SKU: 157701C </h3>
+							<h3> Material: Suede </h3>
+							<h3> Sex: Women</h3>
+							<h2> VND 1,900,000</h2>
+							<a href="nu2.4.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu2.5.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Perf Leather</h2>
+							<h3>SKU: 158464V </h3>
+							<h3> Material: Leather </h3>
+							<h3> Sex: Women</h3>
+							<h2> VND 1,800,000</h2>
+							<a href="nu2.5.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu2.6.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Perf Leather</h2>
+							<h3>SKU: 158465V </h3>
+							<h3> Material: Leather </h3>
+							<h3> Sex: Women	</h3>
+							<h2> VND 1,800,000</h2>
+							<a href="nu2.6.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+			<!-- /Nữ loại 2 -->
+			
+			<!-- Nữ loại 3 -->
+			<section id="loai-6" class="tab-pane fade in">
+				<div class="gallery-grids">
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu3.1.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck 70 Goretex</h2>
+							<h3>SKU: 162351V </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Women	</h3>
+							<h2> VND ?,???,???</h2>
+							<a href="404.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu3.2.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck 70 Goretex</h2>
+							<h3>SKU: 162349V </h3>
+							<h3> Material: Canvas </h3>
+							<h3> Sex: Women</h3>
+							<h2> VND ?,???,???</h2>
+							<a href="404.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu3.3.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>One Star Pro OG Update</h2>
+							<h3>SKU: 157873C </h3>
+							<h3> Material: Suede </h3>
+							<h3> Sex: Women</h3>
+							<h2> VND ?,???,???</h2>
+							<a>
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a href="404.html">
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu3.4.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Chuck Taylor All Star Cordura</h2>
+							<h3>SKU: 161435C </h3>
+							<h3> Material: Textile </h3>
+							<h3> Sex: Women	</h3>
+							<h2> VND ?,???,???</h2>
+							<a href="404.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu3.5.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>84 Thunderbolt Breathable Mesh</h2>
+							<h3>SKU: 161434C </h3>
+							<h3> Material: Textile </h3>
+							<h3> Sex: Women </h3>
+							<h2> VND ?,???,???</h2>
+							<a href="404.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-4 col-sm-6 gallery-top pic">
+						<a href="#">
+							<img src="pic/nu3.6.1.jpg" alt="Nam-1" class="img-responsive" />
+						</a>
+						<div class="overlay">
+							<h2>Star Player Canvas with Gum</h2>
+							<h3>SKU: 157760C </h3>
+							<h3> Material: Leather </h3>
+							<h3> Sex: Women </h3>
+							<h2> VND ?,???,???</h2>
+							<a href="404.html">
+								<input type="submit" name="chitiet" value="Detail" />
+							</a>
+							<a>
+							<input type="submit" name="datmua" value="Order" />
+							</a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+			<!-- /Nữ loại 3 -->
+		</div>
+	</div>
+	<!-- /SẢN PHẨM CHO NỮ-->
+	
+	<!-- ĐĂNG KÝ -->
+	<div class="modal fade" id="signup">
+    <div class="modal-dialog modal-lg	">
+      <div class="modal-content">
+      	<!-- header -->
+        <div class="modal-header">
+          <h2 style="text-align: center">Sign up</h4>
+        </div>
+        
+        <!-- body -->
+        <section id="content" align="center" >
+		<div style="background-color: #f3f3f3">			
+            <table cellpadding="2" cellspacing="12px"  align="center" width="900px" class="col-xs-12">
+               <tr>
+                    <td class="right">Full name:</td>
+                    <td class="left"><input type="text" id="hoten" placeholder="full name..."/>
+                    	<span id="lblhoten" style="color: #FF0004"> </span></td>                   
+               
+                    <td class="right">Sex:</td>
+                    <td class="left"><input type="checkbox" id="gtinh" /><label for="gtinh">Men</label></td>                
+                </tr>
+                <tr>
+                    <td class="right">Dob:</td>
+                    <td class="left"><input type="date" id="datepicker" placeholder="ngày sinh"/>
+                    	<span id="lbldatepicker" style="color: #FF0004"></span>
+                    </td>                   
+               
+                    <td class="right">Job:</td>
+                    <td class="left">
+                        <select id="nnghiep">
+                            <option selected="selected" value="0">--- Chọn trong danh sách ---</option>
+                            <option value="1">Sinh viên</option>
+                            <option value="2">Công nhân viên chức</option>
+                            <option value="1">Kinh doanh</option>
+                            <option value="1">Khác</option>
+                        </select>
+                        <span id="lblnnghiep" style="color: #FF0004"></span>
+                    </td>                   
+                </tr>
+                <tr>
+                    <td class="right">Email:</td>
+                    <td class="left"><input type="email" id="email"  placeholder="email" />
+                    	<span id="lblemail" style="color: #FF0004"></span></td>                   
+               
+                    <td class="right">Phone:</td>
+                    <td class="left"><input type="tel" id="dthoai" placeholder="phone num..." />
+                    	<span id="lbldthoai" style="color: #FF0004"></span></td>                   
+                </tr>
+                <tr>
+                    <td class="right" >User name:</td>
+                    <td class="left" ><input type="text" id="dnhap" placeholder="user name..."/>
+                    	<td><span  id="lbldnhap" style="color: #FF0004"></td></span></td>
+                </tr>
+                <tr>
+                    <td class="right">Pass:</td>
+                    <td class="left"><input type="password" id="mkhau" placeholder="password..."/>
+                    	<span id="lblmkhau" style="color: #FF0004"></span></td>                   
+              
+                    <td class="right">rePass:</td>
+                    <td class="left"><input type="password" id="lmkhau"  placeholder="re password..."/>
+                    	<span id="lbllmkhau" style="color: #FF0004"></span></td>                   
+                </tr>                
+                
+                <tr>
+                    <td class="right">Note:</td>
+                    <td colspan="2"><textarea id="ghichu" placeholder="note..."></textarea></td>                   
+                </tr>
+                <tr><td colspan="4" align="center">
+                    <input type="submit" id="dongy" value="Đồng ý" onClick="return DangKyThanhVien()"/>
+                </td></tr>
+            </table>
+
+            <div id="ketqua" style="line-height: 2">[Verification information]</div>	
+		</div>
+	</section>
+        </div>
+        
+        <!-- footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+
+	<!-- /ĐĂNG KÝ -->
+	
+	<!-- nút -->
+	 <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--/nút-->
+	</div>
+	<!-- /body-->
+	<div class="clearfix">
+	</div>
+	
+	<!-- footer-->
+	<div class="container-fluid lienhe" id="lhe">
+			<div class="col-md-3 ">
+				<a href="index.html"> <img src="pic/logo1.png" class="img-responsive" /> </a>
+				<p>Converse-converse-converse-converse-converse</p>
+				<div class="nut">
+				<a  href="#" class=" fa fa-google-plus" style="padding: 15px 13px " ></a>
+				<a href="#" class="fa fa-facebook-f" style="padding: 15px 20px "></a>
+				<a href="#" class="fa fa-youtube-play" style="padding: 15px 15px "></a>
+				</div>
+			</div>
+			<div class="col-md-9 footer-right">
+				<div class="sign-grds">
+					<div class="col-md-4 sign-gd-two cuoitrang">
+						<h4>Infromation</h4>
+						<div >
+								<div >
+									<i class="fa fa-phone" aria-hidden="true"></i>
+								</div>
+								<div class="address-right ">
+									<h6>Phone number</h6>
+									<p>091 896 123 87</p>
+								</div>
+								<div class="clearfix"> </div>
+							<div >
+								<div >
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+								<div class="address-right">
+									<h6>Email address</h6>
+									<p>Email: converse@gmail.com</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div >
+								<div >
+									<i class="fa fa-map-marker" aria-hidden="true"></i>
+								</div>
+								<div class="address-right">
+									<h6>Address</h6>
+									<p>142 Phạm Phú Thứ P4 Q6 tp HCM.
+
+									</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8 footer-right bando">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.
+						873619289039!2d106.64208311532894!3d10.
+						744222392343412!2m3!1f0!2f0!3f0!3m2!1i1024!
+						2i768!4f13.1!3m3!1m2!1s0x31752e630ac8185f%3A0x7215d0e7dba445e1!2zMTQyI
+						FBo4bqhbSBQaMO6IFRo4bupLCBQaMaw4budbmcgNCwgUXXhuq1uIDYsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!
+						3m2!1svi!2s!4v1539684537114" allowfullscreen >
+						</iframe>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div style="background: #3d3d3d; height: 100%">
+			<p style="text-align: center; color: #8c8c8c; padding-top:10px">2018 © CONVERSE QUẬN 6. ALL RIGHTS RESERVED. DEVELOPED BY DUY</p>
+		</div>
+	</div>
+	<!-- /footer-->
+	
+		<!-- ĐĂNG NHẬP -->
+	<div class="modal fade" id="login">
+    <div class="modal-dialog modal-lg	">
+      <div class="modal-content">
+      	<!-- header -->
+        <div class="modal-header">
+          <h2 style="text-align: center">Login</h4>
+        </div>
+        
+        <!-- body -->
+        <section id="content" align="center" >
+		<div style="background-color: #f3f3f3">			
+            <table cellpadding="2" cellspacing="12px"  align="center" width="900px" class="col-xs-12">
+                <tr>
+                    <td class="right" >User name:</td>
+                    <td class="left" ><input type="text" id="tendangnhap" placeholder="user name..."/>
+                    	<td><span  id="lbldnhap" style="color: #FF0004"></td></span></td>
+                </tr>
+                <tr>
+                    <td class="right">Pass:</td>
+                    <td class="left"><input type="password" id="pass" placeholder="password"/>
+                    	<span id="lblmkhau" style="color: #FF0004"></span></td>                             
+                </tr>                
+                <tr><td colspan="4" align="center">
+                    <input type="submit" id="enter" value="Login" onClick="return DangNhap()"/>
+                </td></tr>
+            </table>
+
+            <div id="dangnhap" style="line-height: 2">[Verification information]</div>	
+		</div>
+	</section>
+        </div>
+        
+        <!-- footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+
+	<!--/ĐĂNG NHẬP -->
+	<script src="Bootstrap/js/jquery-2.2.3.min.js"></script>
+</body>
+</html>
